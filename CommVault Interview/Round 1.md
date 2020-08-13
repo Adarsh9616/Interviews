@@ -8,3 +8,4 @@ The first round started with Aptitude and questions related to the Programming l
 
 This round was taken on an online platform that hosted the test and we were monitered using our webcams.
 Aptitude questions were basic and logical . In Java section the questions were a bit tricky and most of them were related to the concepts of OOPS.
+45 minutes were given for the whole test with a total of 25 questions.
