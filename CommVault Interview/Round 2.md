@@ -13,5 +13,6 @@ The question was similar to StarCase problem where you can go 1 step aur 2 steps
 So the question was:-
 There is a frog and infront of him there is a lake of N length want to cross the lake, but he can only jump atmost M meters at a time. There are N-1 stones in the lake on which the frog can jump, these stones are at 1 meter distance . You have to tell the Number of Possible ways for the frog to reach the other side of the lake.
 
+### There was a question related to graph which i didn't read because of the time limit.
 
 
