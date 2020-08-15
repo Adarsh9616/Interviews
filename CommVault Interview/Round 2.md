@@ -9,6 +9,9 @@ It was a very popular Fractional Knapsack problem . You can find it on GeeksForG
 You can find the problem by going to this link:- https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
 
 ### Dynamic Programming
+The question was similar to StarCase problem where you can go 1 step aur 2 steps at a time , and you have to tell how many steps will you take to reach the destination.
+So the question was:-
+There is a frog and infront of him there is a lake of N length want to cross the lake, but he can only jump atmost M meters at a time. There are N-1 stones in the lake on which the frog can jump, these stones are at 1 meter distance . You have to tell the Number of Possible ways for the frog to reach the other side of the lake.
 
 
 
