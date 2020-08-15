@@ -15,4 +15,4 @@ There is a frog and infront of him there is a lake of N length want to cross the
 
 ### There was a question related to graph which i didn't read because of the time limit.
 
-
+Thats it for this round . 26 students were selected for the next Long coding round. Long Coding Round was gonna be 4-5 hours long and i was scared as hell.
