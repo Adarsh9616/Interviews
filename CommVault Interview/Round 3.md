@@ -10,4 +10,11 @@ The problem was:-
 
 Okay this might look complicated.
 Here is what i did.
-I made a class Song that contained attributes like songName, lengthOfSong,
+
+I made a class Song that contained attributes like songName, lengthOfSong, copyright, singer. Made a constructor to initialise values when an object is created.
+
+Made another class for Playlist. That is gonna have a hashmap of SongName as key and Song as its Value.
+
+Made another class called mp3Player for the whole logical operation.
+
+And them there was this Main class that was provided to us as a template so that we can design the missing functions.
