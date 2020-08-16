@@ -17,4 +17,4 @@ Made another class for Playlist. That is gonna have a hashmap of SongName as key
 
 Made another class called mp3Player for the whole logical operation.
 
-And them there was this Main class that was provided to us as a template so that we can design the missing functions.
+And then there was this Main class that was provided to us as a template so that we can design the missing functions.
