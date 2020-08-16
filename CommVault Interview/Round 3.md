@@ -5,3 +5,9 @@ But in reality it was a complete different experience. I really liked this round
 
 This round started at 8:40am . We were briefly introduced about what we were going to do. There were 26 students that were selected for this round , we were divided into groups of three but the task was to be performed independently.
 
+The problem was:-
+### We have to design a mp3 player. Sounds complicated right? But no we don't have to make any user interface or read any files nothing like that. We had to design a program that can store different songs details. A main player list, multiple playlist and we had to perform different operations on them.
+
+Okay this might look complicated.
+Here is what i did.
+I made a class Song that contained attributes like songName, lengthOfSong,
