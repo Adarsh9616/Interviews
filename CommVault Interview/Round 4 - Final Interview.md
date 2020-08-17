@@ -17,4 +17,19 @@ I told them that i prefer JAVA over other langauges .
 
 5=> Give real life example of Runtime Polymorphism?
 
+6=> How does Runtime polymorphism different from static polymorphism?
+
+7=> Real life use of Inheritance?
+
+8=> What is faster Java or C? and Why?
+
+9=> Why do you code in Java and not C++?
+
+10=> What frameworks have i worked on?
+
+11=> Implementaion of HashMap in Java?
+
+12=> Why do we use just Map while in the left half of Map<Integer,Integer> m=new HashMap<>(); and why i have not used HashMap instead of Map?
+
+
 
