@@ -31,5 +31,23 @@ I told them that i prefer JAVA over other langauges .
 
 12=> Why do we use just Map while in the left half of Map<Integer,Integer> m=new HashMap<>(); and why i have not used HashMap instead of Map?
 
+13=> Difference between Iterators and Enumerators.
 
+14=> DBMS ACID properties.
 
+15=> Normalisation and its types?
+
+16=> What is DeadLock?
+
+17=> Difference between Process and a Thread?
+
+18=> How will the memory consumption vary in these cases , there is a Process containing 1 thread and there is a Process containing 0 thread?
+
+19=> What are annotations? What do they do?
+
+## DSA(3 Questions):=>
+1=> There is a sorted array that is rotated . You have to find if the element is present in the array and return its index. If not present return 0. This operation should be done in LogN time.
+
+2=> There is an array of integers, You have to find the length of longest subarray that contains consecutive integers. Return the length on the longest Subarray. This should be done in O(N) time.
+
+3=> 
