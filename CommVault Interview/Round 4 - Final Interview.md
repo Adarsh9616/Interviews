@@ -53,7 +53,7 @@ So the asked me these questions:=>
 
 22=> What are directed and undirected graphs?
 
-23=> Can a undirected Graph be a Tree? If yes what are the necessary conditions?
+23=> Can an undirected Graph be a Tree? If yes what are the necessary conditions?
 
 24=> Difference between Structure and a Union in C?
 
@@ -72,6 +72,6 @@ So the asked me these questions:=>
 3=> Given an array of integers . You have to create a new array of same size that will contain value of the next Greater element with minimum difference at each position of array. for eg:
 
 Question=> 2 5 3 1 5 8 34 23 2
-Answer  => 3 8 8 2 8 23 -1 -1 -1 
+Answer  => 3 8 5 2 8 23 -1 -1 -1 
 
 
