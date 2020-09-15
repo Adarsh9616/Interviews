@@ -1,4 +1,4 @@
-I think this was the round that made me almost cry.
+I think this was the round that almost made me cry.
 I was so disheartened after this round, it felt like everything i have been doing for past two months means nothing.
 
 So this round was of 2hours . Yes you heard it right , there were 2 interviewers and i must say they were brilliant. I was so surprised that after working for so long in a company they remember each and every small concept of almost all of CSE core subjects.
