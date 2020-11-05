@@ -1,0 +1,48 @@
+This was a great round though I was not able to perform good. The interviewer was very friendly and was just observing what I was thinking while approaching the question.
+So in this round too he directly asked me to join the live coding platform.
+Then he gave me one question to solve, I asked him whether he wants to hear my approach to which his reply was NO, He told me that he is excited to see how I will approach the problem.
+In this round he wasnt even expecting a proper code without bugs he was only interested in knowing my thought process and how I approach the problem.
+
+Question 1:- You are given a string of numbers , You have to return a partitioned String Array in which substring (i-1)th +(i-2)th = ith substring. 
+If not possible return empty string array.
+For example:
+Input:                  Output:
+"111122335"   ------>   {"1","11","12","23","35"}  
+Input:                  Output:
+"112233"      ------->  {"11","22","33"}
+Input:                  Output:
+"11314"       ------->  {"11","3","14"} or {"1","13","14"}
+Input:                  Output:
+"13234113"     -------->{}
+
+
+Question 2:
+
+B,C,D reports to A
+
+E,F,G reports to B
+
+H,I reports to C
+
+J,K,L reports to H
+
+M,N reports to K
+
+O,P reports to J
+
+Input:
+Emp1: O
+Emp2: M
+
+Output:
+C
+
+This was the second question nothing else was given. I had to figure out what I have to do with this.
+He told me that I have to design a Data structure to hold all this information and make a proper program to show how I was going to store values in the Data Structure.
+After that solve the question for the given input.
+Inplace of A,B,C,D...etc there can be a Unique ID for each employee and there can be unlimited people reporting to one person.
+
+So i gave a Backtracking solution for the first question. The time complexity was high and I wasn't able to reduce it.(Though i coded the backtracking solution correctly).
+For the second structure I build a N-Ary Tree for the solution , basically input and output was Least Common Ancestor of the input values.
+So I made a program for the whole structure with whole Input and Output (Including how I will put the given data into the Data Structure). 
+I wasnt able to reduce to time complexity of the solution he asked me to solve this in O(1) or O(N).
