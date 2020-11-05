@@ -1,1 +1,13 @@
-Amazon Online assesment
+Amazon Online assesment.
+So this round was held on the platform called AMCAT.
+The questions were repetitive and most of the things that were asked was available on Internet.
+So this round had 4 Parts:-
+1- Debugging
+2- Aptitude
+3- Behavioural
+4- Coding
+The coding round was pretty simple, some of the questions that I encountered were:-
+1- Create a copy of Linked List containing Random Pointers.
+2- Search in a matrix that is sorted Row -Coloum wise.
+3- Bridges 
+
