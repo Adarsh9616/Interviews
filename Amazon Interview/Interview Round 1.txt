@@ -1,0 +1,145 @@
+Approx 2500 people gave the first online round and only 161 students got the opportunity for the interview.
+So my interview was held after a week of declaration of online round result.
+I joined the meeting on Amazon chime, interviewer directly asked me join the live coding platform on which he gave me my first coding question.
+He told me to tell him an optimal approach, and only if he will be satisfied with my approach , I will be allowed to right the code.
+I told him my approach , although he gave some hints to get me to the right approach.
+
+
+So the Question 1 was:-
+
+
+Question 1: Given an array nums of n integers and an integer target, are there elements a, b, c, and d in nums 
+such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target. 
+Notice that the solution set must not contain duplicate quadruplets.
+
+Input: nums = {1,0,-1,0,-2,2}, target = 0
+Output: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]
+
+I wrote this solution which he checked it manually and he was satisfied with this one so he gave me another question. 
+
+Class Pair
+{
+    int index1;
+    int index2;
+    Pair(int x,int y)
+    {
+        index1=x;
+        index2=y;
+    }
+}
+ArrayList<ArrayList<Integer>> quadruplets(int target,ArrayList<Integer> nums)
+{
+    HashMap<Integer,ArrayList<Pair>> map=new HashMap<>(); 
+    for(int i=0;i<nums.size();i++)
+    {
+        for(int j=i+1;j<nums.size();j++)
+        {
+            if(i!=j)
+            {
+                int sum=nums.get(i)+nums.get(j);
+                if(!map.containsKey(sum))
+                {
+                    ArrayList<Pair> temp=new ArrayList<>();
+                    Pair p=new Pair(i,j);
+                    temp.add(p);
+                    map.put(sum,temp);
+                }
+                else
+                {
+                    ArrayList<Pair> temp=map.get(sum);
+                    Pair p=new Pair(i,j);
+                    temp.add(p);
+                    map.put(sum,temp);
+                }
+            }
+        }
+    }
+    HashSet<ArrayList<Integer>> ans=new HashSet<ArrayList<>>();
+    for(int i=0;i<nums.size();i++)
+    {
+        for(int j=i+1;j<nums.size();j++)
+        {
+            int lookUp=target-(nums.get(i)+nums.get(j));
+            if(map.containsKey(lookUp)
+            {
+                ArrayList<Pair> temp=map.get(lookUp);
+                for(Pair pair:temp)
+                {
+                    if(pair.index1!=i&&pair.index1!=j&&pair.index2!=j&&pair.index2!=j)
+                    {
+                        ArrayList<Integer> values=new ArrayList<>();
+                        values.add(nums.get(pair.index1));
+                        values.add(nums.get(pair.index2));
+                        values.add(nums.get(i));
+                        values.add(nums.get(j));
+                        Collections.sort(values);
+                        ans.add(values);
+                    }
+                }
+            }
+        }
+    }
+    ArrayList<ArrayList<Integer>> res=new ArrayList<>();
+    for(ArrayList<Intger> temp:ans)
+    {
+        res.add(temp);
+    }
+    return res;
+}
+
+This question was based on DP on trees, the first approach that I told him was a brtue force approach ,
+He wanted me to do this in O(N) so within 4-5 mins i was able to figure out a solution.
+
+So I had to code these in 45 - 60 mins including the discussion on the approach and time complexity. 
+It was an amazing experience over all I faced these problems for the first time and I was almost able to get it right. 
+It was and amazing feeling, Super Satisfactory.
+
+
+Question 2: Given the root of a binary tree, find the maximum value V for which there exists 
+different nodes A and B where V = |A.val - B.val| and A is an ancestor of B.
+
+                 8
+                / \
+               3   10
+              / \    \
+             1   6   14
+                 /\   \
+                4  7  13
+                
+long result=Integer.MIN_VALUE;     
+int MaxValue(TreeNode root)
+{
+    if(root==null)
+    {
+        return 0;
+    }
+    solve1(root);
+    solve2(root);
+    return (int)result;
+}
+int solve1(TreeNode root)
+{
+    if(root==null)
+    {
+        return Integer.MIN_VALUE;
+    }
+    int left=solve1(root.left);
+    int right=solve1(root.right);
+    int temp=Math.max(left,right);
+    int check=Math.max(temp,root.val);
+    result=Math.max(Math.abs(root.val-temp),result);
+    return temp;
+}
+int solve2(TreeNode root)
+{
+    if(root==null)
+    {
+        return Integer.MAX_VALUE;
+    }
+    int left=solve2(root.left);
+    int right=solve2(root.right);
+    int temp=Math.min(left,right);
+    int check=Math.min(root.val,temp);
+    result=Math.max(Math.abs(root.val-temp),result);
+    return temp;
+}
