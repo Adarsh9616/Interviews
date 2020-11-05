@@ -9,5 +9,7 @@ So this round had 4 Parts:-
 The coding round was pretty simple, some of the questions that I encountered were:-
 1- Create a copy of Linked List containing Random Pointers.
 2- Search in a matrix that is sorted Row -Coloum wise.
-3- Bridges 
+3- Bridge in a graph.
+4- https://leetcode.com/discuss/interview-question/373006
+All the questions were easily available on Internet. 
 
