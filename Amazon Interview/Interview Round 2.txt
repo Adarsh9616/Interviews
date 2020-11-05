@@ -16,6 +16,9 @@ Input:                  Output:
 "13234113"     -------->{}
 
 
+So i gave a Backtracking solution for the first question. The time complexity was high and I wasn't able to reduce it.(Though i coded the backtracking solution correctly).
+
+
 Question 2:
 
 B,C,D reports to A
@@ -42,7 +45,6 @@ He told me that I have to design a Data structure to hold all this information a
 After that solve the question for the given input.
 Inplace of A,B,C,D...etc there can be a Unique ID for each employee and there can be unlimited people reporting to one person.
 
-So i gave a Backtracking solution for the first question. The time complexity was high and I wasn't able to reduce it.(Though i coded the backtracking solution correctly).
-For the second structure I build a N-Ary Tree for the solution , basically input and output was Least Common Ancestor of the input values.
+For the second question I build a N-Ary Tree for the solution , basically output was Least Common Ancestor of the input values.
 So I made a program for the whole structure with whole Input and Output (Including how I will put the given data into the Data Structure). 
 I wasnt able to reduce to time complexity of the solution he asked me to solve this in O(1) or O(N).
