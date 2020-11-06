@@ -1,6 +1,8 @@
-This was a great round though I was not able to perform good. The interviewer was very friendly and was just observing what I was thinking while approaching the question.
+This was a great round though I was not able to perform good. 
+The interviewer was very friendly and was just observing what I was thinking while approaching the question.
 So in this round too he directly asked me to join the live coding platform.
-Then he gave me one question to solve, I asked him whether he wants to hear my approach to which his reply was NO, He told me that he is excited to see how I will approach the problem.
+Then he gave me one question to solve, I asked him whether he wants to hear my approach to which his reply was NO, 
+He told me that he is excited to see how I will approach the problem.
 In this round he wasnt even expecting a proper code without bugs he was only interested in knowing my thought process and how I approach the problem.
 
 Question 1:- You are given a string of numbers , You have to return a partitioned String Array in which substring (i-1)th +(i-2)th = ith substring. 
