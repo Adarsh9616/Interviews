@@ -15,6 +15,7 @@ Input:                  Output:
 Input:                  Output:
 "13234113"     -------->{}
 
+Link:- https://www.geeksforgeeks.org/partition-given-string-manner-ith-substring-sum-1th-2th-substring/
 
 So i gave a Backtracking solution for the first question. The time complexity was high and I wasn't able to reduce it.(Though i coded the backtracking solution correctly).
 
